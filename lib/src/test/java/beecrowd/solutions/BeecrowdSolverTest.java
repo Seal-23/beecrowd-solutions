@@ -11,13 +11,13 @@ public class BeecrowdSolverTest {
     @Test
     public void sphere1001R3() {
         BeecrowdSolver classUnderTest = new BeecrowdSolver();
-        assertEquals("VOLUME = 113.097", classUnderTest.sphere1001(3));
+        assertEquals("VOLUME = 113.097", classUnderTest.sphere1011(3));
     }
 
     @Test
     public void sphere1001R15() {
         BeecrowdSolver classUnderTest = new BeecrowdSolver();
-        assertEquals("VOLUME = 14137.155", classUnderTest.sphere1001(15));
+        assertEquals("VOLUME = 14137.155", classUnderTest.sphere1011(15));
     }
 
     @Test

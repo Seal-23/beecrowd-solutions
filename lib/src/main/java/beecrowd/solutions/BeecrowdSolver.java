@@ -10,7 +10,7 @@ public class BeecrowdSolver {
     private final double PI = 3.14159;
 
 
-    public String sphere1001(double r) {
+    public String sphere1011(double r) {
         double volume = (PI * r * r * r * 4) / 3;
         return "VOLUME = " + String.format(Locale.CANADA, "%.3f", volume, 3);
     }
