@@ -23,6 +23,6 @@ public class BeecrowdSolverTest {
     @Test
     public void sphere1001R1523() {
         BeecrowdSolver classUnderTest = new BeecrowdSolver();
-        assertEquals("VOLUME = 14797486501.627", classUnderTest.sphere1001(1523));
+        assertEquals("VOLUME = 14797486501.627", classUnderTest.sphere1011(1523));
     }
 }
