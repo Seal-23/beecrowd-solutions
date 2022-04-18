@@ -9,7 +9,7 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ main, fature/** ]
+    branches: [ main, feature/** ]
 
 jobs:
   build-java:
