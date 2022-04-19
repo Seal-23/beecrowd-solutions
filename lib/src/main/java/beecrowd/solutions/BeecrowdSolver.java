@@ -18,7 +18,7 @@ public class BeecrowdSolver {
     }
    private final double consumo=12;
     
-   public String FuelSpent1017(double horasViaje, double velocidad) {
+   public String fuelSpent1017(double horasViaje, double velocidad) {
 	    double litrosConsumidos=(velocidad*horasViaje)/consumo;
 	    return "Litros consumidos = " + String.format(Locale.CANADA, "%.3f", litrosConsumidos, 3);
    }
