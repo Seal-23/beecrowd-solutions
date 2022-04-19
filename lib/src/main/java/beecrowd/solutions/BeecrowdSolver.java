@@ -16,8 +16,6 @@ public class BeecrowdSolver {
         return "VOLUME = " + String.format(Locale.CANADA, "%.3f", volume, 3);               
         
     }
-   private double horasViaje;
-   private double velocidad;
    private final double consumo=12;
     
    public String FuelSpent1017(double horasViaje, double velocidad) {
