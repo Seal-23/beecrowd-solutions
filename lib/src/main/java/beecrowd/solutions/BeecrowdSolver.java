@@ -5,6 +5,7 @@ package beecrowd.solutions;
 
 import java.util.Locale;
 
+
 public class BeecrowdSolver {
 
     private final double PI = 3.14159;
@@ -12,6 +13,16 @@ public class BeecrowdSolver {
 
     public String sphere1011(double r) {
         double volume = (PI * r * r * r * 4) / 3;
-        return "VOLUME = " + String.format(Locale.CANADA, "%.3f", volume, 3);
+        return "VOLUME = " + String.format(Locale.CANADA, "%.3f", volume, 3);               
+        
     }
+   private double horasViaje;
+   private double velocidad;
+   private final double consumo=12;
+    
+   public String FuelSpent1017(double horasViaje, double velocidad) {
+	    double litrosConsumidos=(velocidad*horasViaje)/consumo;
+	    return "Litros consumidos = " + String.format(Locale.CANADA, "%.3f", litrosConsumidos, 3);
+   }
+    
 }

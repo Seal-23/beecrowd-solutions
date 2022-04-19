@@ -25,4 +25,23 @@ public class BeecrowdSolverTest {
         BeecrowdSolver classUnderTest = new BeecrowdSolver();
         assertEquals("VOLUME = 14797486501.627", classUnderTest.sphere1011(1523));
     }
+    
+    @Test
+    public void FuelSpent1017R3() {
+        BeecrowdSolver classUnderTestFS = new BeecrowdSolver();
+        assertEquals("Litros consumidos = 122.833", classUnderTestFS.FuelSpent1017(22,67));
+    }
+    
+    @Test
+    public void FuelSpent1017R15() {
+        BeecrowdSolver classUnderTestFS = new BeecrowdSolver();
+        assertEquals("Litros consumidos = 15.333", classUnderTestFS.FuelSpent1017(2,92));
+    }
+    
+    @Test
+    public void FuelSpent1017R1523() {
+        BeecrowdSolver classUnderTestFS = new BeecrowdSolver();
+        assertEquals("Litros consumidos = 70.833", classUnderTestFS.FuelSpent1017(10,85));
+    }
+    
 }
